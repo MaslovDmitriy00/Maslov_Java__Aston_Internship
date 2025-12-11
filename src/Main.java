@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Çàäà÷à 1
-        System.out.println("Çàäà÷à 1: Îïåðàöèè íàä öåëûìè ÷èñëàìè");
-        System.out.print("Ââåäèòå ïåðâîå öåëîå ÷èñëî (a): ");
+        // Ð—Ð°Ð´Ð°Ñ‡Ð° 1
+        System.out.println("Ð—Ð°Ð´Ð°Ñ‡Ð° 1: ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ Ð½Ð°Ð´ Ñ†ÐµÐ»Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ (a): ");
         int a = scanner.nextInt();
-        System.out.print("Ââåäèòå âòîðîå öåëîå ÷èñëî (b): ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ (b): ");
         int b = scanner.nextInt();
 
-        // Îïåðàöèè ñðàâíåíèÿ
+        // ÐžÐ¿ÐµÑ€Ð°Ñ†Ð¸Ð¸ ÑÑ€Ð°Ð²Ð½ÐµÐ½Ð¸Ñ
         if (a > b) {
             System.out.println("a > b");
         } else if (a < b) {
@@ -20,38 +20,38 @@ public class Main {
             System.out.println("a = b");
         }
 
-        // Àðèôìåòè÷åñêèå îïåðàöèè
-        System.out.println("Ñëîæåíèå: " + (a + b));
-        System.out.println("Âû÷èòàíèå: " + (a - b));
-        System.out.println("Óìíîæåíèå: " + (a * b));
+        // ÐÑ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ð¸
+        System.out.println("Ð¡Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ: " + (a + b));
+        System.out.println("Ð’Ñ‹Ñ‡Ð¸Ñ‚Ð°Ð½Ð¸Ðµ: " + (a - b));
+        System.out.println("Ð£Ð¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ: " + (a * b));
         if (b != 0) {
-            System.out.println("Äåëåíèå: " + (a / (double) b));
+            System.out.println("Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ: " + (a / (double) b));
         } else {
-            System.out.println("Äåëåíèå íà íîëü íåâîçìîæíî");
+            System.out.println("Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ Ð½ÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾");
         }
 
         System.out.println();
         scanner.nextLine();
 
 
-        // Çàäà÷à 2
-        System.out.println("Çàäà÷à 2: Ñðàâíåíèå ñòðîê");
-        System.out.print("Ââåäèòå ïåðâóþ ñòðîêó: ");
+        // Ð—Ð°Ð´Ð°Ñ‡Ð° 2
+        System.out.println("Ð—Ð°Ð´Ð°Ñ‡Ð° 2: Ð¡Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ ÑÑ‚Ñ€Ð¾Ðº");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²ÑƒÑŽ ÑÑ‚Ñ€Ð¾ÐºÑƒ: ");
         String strA = scanner.nextLine();
-        System.out.print("Ââåäèòå âòîðóþ ñòðîêó: ");
+        System.out.print("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ ÑÑ‚Ñ€Ð¾ÐºÑƒ: ");
         String strB = scanner.nextLine();
 
         if (strA.equals(strB)) {
-            System.out.println("Ñòðîêè èäåíòè÷íû");
+            System.out.println("Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸ Ð¸Ð´ÐµÐ½Ñ‚Ð¸Ñ‡Ð½Ñ‹");
         } else {
-            System.out.println("Ñòðîêè íåèäåíòè÷íû");
+            System.out.println("Ð¡Ñ‚Ñ€Ð¾ÐºÐ¸ Ð½ÐµÐ¸Ð´ÐµÐ½Ñ‚Ð¸Ñ‡Ð½Ñ‹");
         }
 
         System.out.println();
         scanner.close();
 
-        // Çàäà÷à 3
-        System.out.println("Çàäà÷à 3: ×¸òíûå ÷èñëà èç ìàññèâà");
+        // Ð—Ð°Ð´Ð°Ñ‡Ð° 3
+        System.out.println("Ð—Ð°Ð´Ð°Ñ‡Ð° 3: Ð§Ñ‘Ñ‚Ð½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð¸Ð· Ð¼Ð°ÑÑÐ¸Ð²Ð°");
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int num : numbers) {
             if (num % 2 == 0) {
